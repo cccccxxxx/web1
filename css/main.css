@@ -1,0 +1,84 @@
+.profile {
+    width: 100px; 
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.title {
+    text-align: center; 
+    font-size: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.box{ /*display block 가로행 전부 차지*/
+    width: 100px;
+    background: cadetblue;
+    margin: 10px;
+    padding: 40px; 
+    border-radius: 5px; /*테두리 둥글게*/
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.container{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.left-menu{
+    width: 20%;
+    height: 400px;
+    background: cornflowerblue;
+    float: left;
+}
+
+.right-menu{
+    width: 80%;
+    height: 400px;
+    background: coral;
+    float: left;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    clear: both;
+}
+
+.blog-content {
+    width: 80%;
+    height: 200px;
+    float: left;
+}
+
+.blog-img {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    float: left;
+    display: block;
+}
+
+.blog-name {
+    float: left;
+}
